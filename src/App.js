@@ -1,11 +1,12 @@
+import { useState, useEffect } from "react";
+
 import "@fontsource/manrope"; // Defaults to weight 400
 import './App.css';
+
 import Nav from './components/Nav';
 import Patients from './components/Patients'
 import Diagnostics from './components/Diagnostics'
 import UserProfile from './components/UserProfile'
-
-import { useState, useEffect } from "react";
 import Spinner from "./components/Spinner";
 
 function App() {
